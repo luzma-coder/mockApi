@@ -1,0 +1,150 @@
+{
+  "auth": [
+    {
+      "id": 1,
+      "email": "nuevo@burguer.com",
+      "password": "999999"
+    }
+  ],
+  "users": [
+    {
+      "_id": "1",
+      "email": "admin@burguer.com",
+      "password": "123456",
+      "roles": {
+        "admin": true
+      }
+    },
+    {
+      "_id": "2",
+      "email": "kitchen@burguer.com",
+      "password": "111111",
+      "roles": {
+        "admin": false
+      }
+    },
+    {
+      "_id": "3",
+      "email": "waiter1@burguer.com",
+      "password": "222222",
+      "roles": {
+        "admin": false
+      }
+    },
+    {
+      "_id": "4",
+      "email": "waiter2@burguer.com",
+      "password": "333333",
+      "roles": {
+        "admin": false
+      }
+    },
+    {
+      "_id": "5",
+      "email": {
+        "email": "waiter3@burguer.com"
+      },
+      "roles": {
+        "admin": false
+      }
+    }
+  ],
+  "products": [
+    {
+      "_id": "1",
+      "name": "Café americano",
+      "price": 5,
+      "image": "",
+      "type": "desayuno",
+      "dateEntry": ""
+    },
+    {
+      "_id": "2",
+      "name": "Café con leche",
+      "price": 7,
+      "image": "",
+      "type": "desayuno",
+      "dateEntry": ""
+    },
+    {
+      "_id": "3",
+      "name": "Sandwich de jamón y queso",
+      "price": 10,
+      "image": "",
+      "type": "desayuno",
+      "dateEntry": ""
+    },
+    {
+      "_id": "4",
+      "name": "Jugo de frutas natural",
+      "price": 7,
+      "image": "",
+      "type": "desayuno",
+      "dateEntry": ""
+    },
+    {
+      "_id": "5",
+      "name": "Hamburguesa simple",
+      "price": 10,
+      "image": "",
+      "type": "resto",
+      "dateEntry": ""
+    },
+    {
+      "_id": "6",
+      "name": "Hamburguesa doble",
+      "price": 15,
+      "image": "",
+      "type": "resto",
+      "dateEntry": ""
+    },
+    {
+      "_id": "7",
+      "name": "Papas fritas",
+      "price": 5,
+      "image": "",
+      "type": "resto",
+      "dateEntry": ""
+    },
+    {
+      "_id": "8",
+      "name": "Aros de cebolla",
+      "price": 5,
+      "image": "",
+      "type": "resto",
+      "dateEntry": ""
+    },
+    {
+      "_id": "9",
+      "name": "Agua 500ml",
+      "price": 5,
+      "image": "",
+      "type": "resto",
+      "dateEntry": ""
+    },
+    {
+      "_id": "10",
+      "name": "Agua 750ml",
+      "price": 7,
+      "image": "",
+      "type": "resto",
+      "dateEntry": ""
+    },
+    {
+      "_id": "11",
+      "name": "Bebida/gaseosa 500ml",
+      "price": 7,
+      "image": "",
+      "type": "resto",
+      "dateEntry": ""
+    },
+    {
+      "_id": "12",
+      "name": "Bebida/gaseosa 750ml",
+      "price": 10,
+      "image": "",
+      "type": "resto",
+      "dateEntry": ""
+    }
+  ]
+}
